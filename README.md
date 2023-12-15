@@ -130,7 +130,7 @@ div tag is used to group related elements together for easier styling
 #For styling purposes, all other elements are grouped into divs. 
 ```
 ## HTML5 tags
-Use semantic elements like <header>, <nav>, <article>, <section>, <footer>, etc., to add meaning to the content.
+Use semantic elements like ```<header>, <nav>, <article>, <section>, <footer>, etc.```, to add meaning to the content.
 ```html
 <!-- To enclose header content -->
 <header>
@@ -146,7 +146,7 @@ Use semantic elements like <header>, <nav>, <article>, <section>, <footer>, etc.
 </footer>
 ```
 
-## HTML COmments
+## HTML Comments
 Comments are important in any language. They help explain whatever is happening. Comments are not executed when the rest of the code is being executed.
 ```html
 <!--Single Line comment-->
