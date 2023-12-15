@@ -70,7 +70,7 @@ Use ul for unordered lists and ol for ordered lists. List items are represented 
 ```
 
 5. Links - 
-Links provide a lint/path to another resource. Create hyperlinks using the <a> tag:
+Links provide a link/path to another resource. Create hyperlinks using the <a> tag:
 
 ```html
 <a href="https://dtechnologys.com/">Visit Dynamic Technologies</a>
