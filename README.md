@@ -1,22 +1,6 @@
-# HTML-course
-# HTML Basics
+# HTML-course || HTML Basics
 
 Welcome to the HTML Basics guide! This document will introduce you to the fundamentals of HTML (Hypertext Markup Language), which is the standard language for creating web pages.
-
-## Table of Contents
-1. [Introduction to HTML](#introduction-to-html)
-2. [HTML Document Structure](#html-document-structure)
-3. [HTML Elements](#html-elements)
-4. [Attributes](#attributes)
-5. [Headings and Paragraphs](#headings-and-paragraphs)
-6. [Lists](#lists)
-7. [Links](#links)
-8. [Images](#images)
-9. [Forms](#forms)
-10. [Tables](#tables)
-11. [Semantic HTML](#semantic-html)
-12. [HTML5](#html5)
-13. [Additional Resources](#additional-resources)
 
 ## Introduction to HTML
 
@@ -38,56 +22,85 @@ A basic HTML document structure includes the following:
 </html>
 ```
 
-
-
-## HTML Elements
-Elements are the building blocks of HTML. They are represented by tags. For example, to create a paragraph:
+**HTML Elements**
+Elements are the building blocks of HTML. They are represented by tags.
+1. Paragraph
 
 ```html
 <p>This is a paragraph.</p>
 ```
 
-## Attributes
-HTML elements can have attributes that provide additional information. For example, adding an attribute to an image tag:
+2. Image
 
 ```html
 <img src="image.jpg" alt="Description">
 ```
-## Headings and Paragraphs
-HTML provides heading tags (<h1> to <h6>) for defining headings and the <p> tag for paragraphs.
+3. Headings
+HTML provides heading tags from h1 to h6 for defining headings.
+```html
+<h1> Heading one </h1>  
+<h2> Heading one </h2>
+<h3> Heading one </h3>
+<h4> Heading one </h4>
+<h5> Heading one </h5>
+<h6> Heading one </h6>
+#Best SEO practices recommends 1 H1 tag for each page.
+#Other heading levels should be distributed as needed. 
 
-## Lists
-Use <ul> for unordered lists and <ol> for ordered lists. List items are represented by <li>.
+```
+4. Lists
+Use ul for unordered lists and ol for ordered lists. List items are represented by li.
 
+**Unordered list**
 ```html
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
 </ul>
 ```
-## Links
-Create hyperlinks using the <a> tag:
+**Ordered List**
 
 ```html
-<a href="https://example.com">Visit Example</a>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ol>
 ```
-## Images
-Display images using the <img> tag:
+
+5. Links
+Links provide a lint/path to another resource. Create hyperlinks using the <a> tag:
 
 ```html
-<img src="image.jpg" alt="Description">
+<a href="https://dtechnologys.com/">Visit Dynamic Technologies</a>
 ```
-## Forms
+6. Forms
 HTML forms allow user input. Use tags like <form>, <input>, and <button>.
 
 ```html
-<form>
+<form method="" action="">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username">
     <button type="submit">Submit</button>
 </form>
 ```
-## Tables
+7. Inputs
+User inputs fields are used to collect information for website users. 
+```html
+<input type="text">
+<input type="password">
+<input type="radio">
+<input type="checkbox">
+<input type="submit">
+<input type="reset">
+<input type="file">
+<input type="date">
+<input type="email">
+<input type="url">
+<input type="number">
+<input type="range">
+<input type="color">
+```
+8. Tables
 Create tables with the <table>, <tr>, <th>, and <td> tags.
 
 ```html
