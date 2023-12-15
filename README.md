@@ -24,20 +24,20 @@ A basic HTML document structure includes the following:
 
 **HTML Elements**
 Elements are the building blocks of HTML. They are represented by tags.
-1. Paragraph
+1. Paragraph -
 
 ```html
 <p>This is a paragraph.</p>
 ```
 
-2. Image
+2. Image - 
 
 ```html
 <img src="https://dtechnologys.com/wp-content/uploads/2023/01/cropped-android-chrome-512x512-1.png" alt="Description">
 
 #The image can be fetched from the local server or from a remote server.
 ```
-3. Headings
+3. Headings - 
 HTML provides heading tags from h1 to h6 for defining headings.
 ```html
 <h1> Heading one </h1>  
@@ -50,7 +50,7 @@ HTML provides heading tags from h1 to h6 for defining headings.
 #Other heading levels should be distributed as needed. 
 
 ```
-4. Lists
+4. Lists - 
 Use ul for unordered lists and ol for ordered lists. List items are represented by li.
 
 **Unordered list**
@@ -69,13 +69,13 @@ Use ul for unordered lists and ol for ordered lists. List items are represented 
 </ol>
 ```
 
-5. Links
+5. Links - 
 Links provide a lint/path to another resource. Create hyperlinks using the <a> tag:
 
 ```html
 <a href="https://dtechnologys.com/">Visit Dynamic Technologies</a>
 ```
-6. Forms
+6. Forms - 
 HTML forms allow user input. Use tags like <form>, <input>, and <button>.
 
 ```html
@@ -85,7 +85,7 @@ HTML forms allow user input. Use tags like <form>, <input>, and <button>.
     <button type="submit">Submit</button>
 </form>
 ```
-7. Inputs
+7. Inputs -
 User input fields are used to collect information for website users. 
 ```html
 <input type="text">
@@ -102,7 +102,7 @@ User input fields are used to collect information for website users.
 <input type="range">
 <input type="color">
 ```
-8. Tables
+8. Tables -
 Create tables with the ```<table>, <tr>, <th>, and <td> tags```.
 
 ```html
@@ -117,7 +117,7 @@ Create tables with the ```<table>, <tr>, <th>, and <td> tags```.
     </tr>
 </table>
 ```
-9. div
+9. div -
 div tag is used to group related elements together for easier styling
 ```html
 <div>
