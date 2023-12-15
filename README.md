@@ -33,7 +33,9 @@ Elements are the building blocks of HTML. They are represented by tags.
 2. Image
 
 ```html
-<img src="image.jpg" alt="Description">
+<img src="https://dtechnologys.com/wp-content/uploads/2023/01/cropped-android-chrome-512x512-1.png" alt="Description">
+
+#The image can be fetched from the local server or from a remote server.
 ```
 3. Headings
 HTML provides heading tags from h1 to h6 for defining headings.
@@ -84,7 +86,7 @@ HTML forms allow user input. Use tags like <form>, <input>, and <button>.
 </form>
 ```
 7. Inputs
-User inputs fields are used to collect information for website users. 
+User input fields are used to collect information for website users. 
 ```html
 <input type="text">
 <input type="password">
@@ -101,7 +103,7 @@ User inputs fields are used to collect information for website users.
 <input type="color">
 ```
 8. Tables
-Create tables with the <table>, <tr>, <th>, and <td> tags.
+Create tables with the ```<table>, <tr>, <th>, and <td> tags```.
 
 ```html
 <table>
@@ -115,8 +117,45 @@ Create tables with the <table>, <tr>, <th>, and <td> tags.
     </tr>
 </table>
 ```
-## Semantic HTML
+9. div
+div tag is used to group related elements together for easier styling
+```html
+<div>
+<p> some paragraph </p>
+<h1> Heading 1 </h1>
+<div>
+<p> more content and or tags </p>
+</div>
+</div>
+#For styling purposes, all other elements are grouped into divs. 
+```
+## HTML5 tags
 Use semantic elements like <header>, <nav>, <article>, <section>, <footer>, etc., to add meaning to the content.
+```html
+<!-- To enclose header content -->
+<header>
+</header>
+<!-- To enclose navigation bar content -->
+<nav>
+</nav>
+<!-- To enclose general content -->
+<section>
+</section>
+<!-- To enclose the footer content -->
+<footer>
+</footer>
+```
+
+## HTML COmments
+Comments are important in any language. They help explain whatever is happening. Comments are not executed when the rest of the code is being executed.
+```html
+<!--Single Line comment-->
+
+<!--
+This is a multiline
+comment in HTML.
+-->
+```
 
 
 
